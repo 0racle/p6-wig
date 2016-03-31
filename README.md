@@ -16,7 +16,11 @@ my @matches = @data.where(/pattern/)
 
 This module adds a new method (and function) called `where` that is essentially an 'alias' for `grep`.
 
-This idea came from a [language proposal](https://gist.github.com/0racle/ea0523759e2da15758d4) I had to make filtering elements read more like English. The use of of the term `grep` is kind of a misnomer, and unfamiliar to a lot of people. 
+This idea came from a [language proposal](https://gist.github.com/0racle/ea0523759e2da15758d4) I had to make filtering elements read more like English. The use of of the term `grep` is kind of a misnomer, and unfamiliar to a lot of people. My dream is that this makes it's way into the language proper.
+
+## =)
+
+`lizmat :    fwiw, I like the idea of "where" instead of "grep"` - [Source](http://irclog.perlgeek.de/perl6/2016-03-30#i_12262416)
 
 ## Limitations / Issues
 
