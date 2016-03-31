@@ -2,7 +2,7 @@
 
 Make grep prettier, put a wig on it!
 
-{\[:)
+{\[: )
 
 ## Synopsis
 
