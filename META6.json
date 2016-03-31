@@ -1,0 +1,14 @@
+{
+   "name" : "Wig",
+   "version" : "0.1.0",
+   "description" : "Where is grep. Adds a new .where method that aliases .grep",
+   "perl" : "6.c",
+   "authors" : [ "Joshua Yeshouroun" ],
+   "provides" : {
+      "Wig" : "lib/Wig.pm"
+   },
+   "depends" : [ ],
+   "source-url" : "git://github.com/0rac1e/Wig.git",
+   "license" : "Artistic"
+}
+
