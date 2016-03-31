@@ -2,6 +2,8 @@
 
 Make grep prettier, put a wig on it!
 
+{\[: )
+
 ## Synopsis
 
 ```perl6
@@ -42,4 +44,3 @@ If you think I've missed a very important class that I shouldn't have, please le
 
 Please see the LICENCE file in the distribution
 
-{\[: )
