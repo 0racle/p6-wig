@@ -1,11 +1,11 @@
-# Wig (where is grep) 
+# wig ( where is grep ) 
 
 Make grep prettier by putting a wig on it.
 
 ## Synopsis
 
 ```perl6
-use Wig;
+use wig;
 
 my @even = @numbers.where(* %% 2)
 my @prod = @servers.where(.status eq 'Production')
@@ -14,8 +14,9 @@ my @matches = @data.where(/pattern/)
 
 ## Description
 
-This idea comes from a [language proposal](https://gist.github.com/0racle/ea0523759e2da15758d4) I had to make filtering elements read more like English.
-The use of of the term `grep` is kind of a misnomer, and unfamiliar to a lot of people, new and old programmers alike. This module adds a new method (and function) that is essentially an 'alias' for `grep` called `where`.
+This module adds a new method (and function) called `where` that is essentially an 'alias' for `grep`.
+
+This idea came from a [language proposal](https://gist.github.com/0racle/ea0523759e2da15758d4) I had to make filtering elements read more like English. The use of of the term `grep` is kind of a misnomer, and unfamiliar to a lot of people. 
 
 ## Limitations / Issues
 
