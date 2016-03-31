@@ -24,11 +24,11 @@ Rakudo currently has a cache invalidation issue where child classes don't automa
 
 Until this is fixed, the work around is is to call `.^compose` on your desired child classes. I haven't called it on _every_ class under Any (there's a lot!), just the ones `grep` is used with commonly. 
 
-If a class hasn't been recomposed and you try to use `where` on it, Rakudo will report the error `Method 'where' not found for invocant of class 'ClassName'`.
+If a class hasn't been recomposed and you try to call `where` on it, Rakudo will report the error `Method 'where' not found for invocant of class 'ClassName'`.
 
-As a quickfix you can just call `ClassName.^compose;` after `use wig;`. Alternatively you can modify the module source.
+As a quickfix, just call `ClassName.^compose;` after `use wig;`. Alternatively you can modify the module source.
 
-If you think I've missed a very important class that I shouldn't have, please let me know (email, issues, submit a PR, IRC (freenode, #perl6, user: perlawhirl).
+If you think I've missed a very important class that I shouldn't have, please let me know (Issues / Submit a PR / irc://freenode, #perl6, user: perlawhirl).
 
 ## Licence
 
