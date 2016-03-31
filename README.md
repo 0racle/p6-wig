@@ -21,7 +21,7 @@ The use of of the term `grep` is kind of a misnomer, and unfamiliar to a lot of 
 
 Rakudo currently has a cache invalidation issue where child classes don't automatically inherit augmented methods from a Parent class (in this case, the Any class).
 
-Until this is fixed, the work around is is to call '.^compose' on your desired child classes. I haven't called it on _every_ class under Any (there's a lot!), just the ones `grep` is used with commonly. 
+Until this is fixed, the work around is is to call `.^compose` on your desired child classes. I haven't called it on _every_ class under Any (there's a lot!), just the ones `grep` is used with commonly. 
 
 If a class hasn't been recomposed and you try to use `where` on it, Rakudo will report the error `Method 'where' not found for invocant of class 'ClassName'`.
 
@@ -31,5 +31,5 @@ If you think I've missed a very important class that I shouldn't have, please le
 
 ## Licence
 
-Please see the LICENCE file in the distribution`
+Please see the LICENCE file in the distribution
 
