@@ -36,9 +36,10 @@ If a class hasn't been recomposed and you try to call `where` on it, Rakudo will
 
 As a quickfix, just call `ClassName.^compose;` after `use wig;`. Alternatively you can modify the module source.
 
-If you think I've missed a very important class that I shouldn't have, please let me know (Issues / Submit a PR / irc://freenode, #perl6, user: perlawhirl).
+If you think I've missed a very important class that I shouldn't have, please let me know (Issues | Submit a PR | irc://freenode, #perl6, user: perlawhirl).
 
 ## Licence
 
 Please see the LICENCE file in the distribution
 
+{\[: )
