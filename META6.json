@@ -8,7 +8,7 @@
       "wig" : "lib/wig.pm"
    },
    "depends" : [ ],
-   "source-url" : "git://github.com/0rac1e/wig.git",
+   "source-url" : "git://github.com/0racle/p6-wig.git",
    "license" : "Artistic"
 }
 
