@@ -22,7 +22,9 @@ my @jpgs = %*ENV<HOME>.IO.dir.where: *.basename.ends-with( '.jpg' | '.jpeg' );
 
 This module adds a new method (and function) called `where` that is essentially an 'alias' for `grep`.
 
-This idea came from a [language proposal](https://gist.github.com/0racle/ea0523759e2da15758d4) I had to make filtering elements read more like English. The term `grep` is kind of a misnomer, and unfamiliar to a lot of people. My dream is that this makes it's way into the language proper.
+The term `grep` is kind of a misnomer, and unfamiliar to a lot of people. Using `where` allows you to filter items in a way that reads much more like English, particualarly when used in the method form.
+
+This idea was originally a [language proposal](https://gist.github.com/0racle/ea0523759e2da15758d4) and my hope is that it makes it's way into the language proper.
 
 ## Celebrity Endorsements
 
