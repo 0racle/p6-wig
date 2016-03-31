@@ -1,6 +1,6 @@
 # wig ( where is grep ) 
 
-Make grep prettier, put a wig on it!
+Make grep prettier, put a wig on it! **{\[: )**
 
 ## Synopsis
 
@@ -22,9 +22,7 @@ This module adds a new method (and function) called `where` that is essentially 
 
 This idea came from a [language proposal](https://gist.github.com/0racle/ea0523759e2da15758d4) I had to make filtering elements read more like English. The use of the term `grep` is kind of a misnomer, and unfamiliar to a lot of people. My dream is that this makes it's way into the language proper.
 
-## =)
-
-_fwiw, I like the idea of "where" instead of "grep"_ - [lizmat](http://irclog.perlgeek.de/perl6/2016-03-30#i_12262416)
+_I like the idea of "where" instead of "grep"_ - [lizmat](http://irclog.perlgeek.de/perl6/2016-03-30#i_12262416)
 
 ## Limitations / Issues
 
@@ -42,4 +40,3 @@ If you think I've missed a very important class that I shouldn't have, please le
 
 Please see the LICENCE file in the distribution
 
-{\[: )
