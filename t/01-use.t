@@ -5,7 +5,7 @@ use lib 'lib';
 
 use Test;
 
-use-ok('Wig', 'Can load "Wig" ok');
+use-ok('wig', 'Can load "wig" ok');
 
 done-testing;
 
