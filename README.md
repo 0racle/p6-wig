@@ -40,7 +40,7 @@ As a quickfix, just call `ClassName.^compose;` after `use wig;`. Alternatively y
 
 If you think I've missed a very important class that I shouldn't have, please let me know (Issues | Submit a PR | irc://freenode, #perl6, user: perlawhirl).
 
-## Licence
+## License
 
-Please see the LICENCE file in the distribution
+Artistic. Refer to the LICENSE file in the distribution.
 
