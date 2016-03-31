@@ -1,6 +1,6 @@
 # wig ( where is grep ) 
 
-Make grep prettier, put a wig on it! **{\[: )**
+Make grep prettier, put a wig on it! {\[: )
 
 ## Synopsis
 
