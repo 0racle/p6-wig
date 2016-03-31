@@ -20,7 +20,7 @@ This idea came from a [language proposal](https://gist.github.com/0racle/ea05237
 
 ## =)
 
-`lizmat :    fwiw, I like the idea of "where" instead of "grep"` - [Source](http://irclog.perlgeek.de/perl6/2016-03-30#i_12262416)
+_fwiw, I like the idea of "where" instead of "grep"_ - [lizmat](http://irclog.perlgeek.de/perl6/2016-03-30#i_12262416)
 
 ## Limitations / Issues
 
