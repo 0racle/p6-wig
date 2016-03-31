@@ -7,9 +7,13 @@ Make grep prettier by putting a wig on it.
 ```perl6
 use wig;
 
-my @even = @numbers.where(* %% 2)
-my @prod = @servers.where(.status eq 'Production')
-my @matches = @data.where(/pattern/)
+my @even = @numbers.where(* %% 2);
+
+my @prod = @servers.where(.status eq 'Production');
+
+my @matches = @data.where(/pattern/);
+
+my @jpgs = %*ENV<HOME>.IO.dir.where: *.basename.ends-with( '.jpg' | '.jpeg' );
 ```
 
 ## Description
