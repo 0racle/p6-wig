@@ -9,9 +9,9 @@ use wig;
 
 my @even = @numbers.where(* %% 2);
 
-my @prod = @servers.where(.status eq 'Production');
-
 my @matches = @data.where(/pattern/);
+
+my @prod_servers = @servers.where(*.status eq 'Production');
 
 my @jpgs = %*ENV<HOME>.IO.dir.where: *.basename.ends-with( '.jpg' | '.jpeg' );
 ```
